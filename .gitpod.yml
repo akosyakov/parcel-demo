@@ -7,4 +7,8 @@ tasks:
     openMode: split-right
 jetbrains:
   intellij:
-    vmoptions: "-Xmx512g"
+    vmoptions: >
+      -Dhttp.proxyHost=testhost
+      -Dhttp.proxyPort=8080
+      -Dhttp.proxyUser=testuser
+      -Dhttp.proxyPassword=testpassword
