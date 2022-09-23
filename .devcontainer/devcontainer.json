@@ -1,0 +1,9 @@
+{
+    "customizations": {
+		"vscode": {
+			"settings": {
+                "editor.fontSize": 14
+            }
+		}
+    }
+}
