@@ -1,4 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
 tasks:
+  - command: |
+      sudo tinyproxy
+      sudo tail -f /var/log/tinyproxy/tinyproxy.log
   - init: yarn
     command: yarn serve
   - command: |
