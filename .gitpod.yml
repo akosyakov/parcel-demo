@@ -1,7 +1,7 @@
+image: gitpod/workspace-base
 tasks:
-  - init: yarn
-    command: yarn serve
-  - command: |
-      gp open index.js
-      gp preview $(gp url 1234)
-    openMode: split-right
+  - init: gp env
+    command: gp env
+  - init: env
+    command: env
+    
