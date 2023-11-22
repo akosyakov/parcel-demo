@@ -5,3 +5,4 @@ tasks:
       gp open index.js
       gp preview $(gp url 1234)
     openMode: split-right
+abracadabra
